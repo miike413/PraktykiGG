@@ -33,7 +33,6 @@ package com.company;
                 System.out.println("Zadanie 4");
                 String myStringA = "Michał";
                 String myStringB = "Radzicki";
-                // write your code here
                 System.out.println(myStringA +"\t"+ myStringB);
 
 
