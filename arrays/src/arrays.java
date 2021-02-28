@@ -2,7 +2,8 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class arrays {
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
         int[] array = {1, 2};
         System.out.println("array[0] = " + array[0] + "\narray[1] = " + array[1]);
         System.out.println("Długość tablicy = " + array.length);
@@ -50,9 +51,55 @@ public class arrays {
         }
 
         System.out.println();
+        //Przyklad 5
+        System.out.println("Przyklad 5");
+        {
+            double[] a = {23.45, -2.22, 45.90, 67.45, -56, 234.11, -34.8, 90.4, -77};
+            double min = a[0];
+            double max = a[0];
+            int pmin = 0;
+            int pmax = 0;
+            for (int i = 0; i < 9; i++) {
+                if (max < a[i]) {
+                    max = a[i];
+                    pmax = i;
+                }
+                if (min > a[i]) {
+                    min = a[i];
+                    pmin = i;
+                }
+                System.out.println("element [" + i + "] = " + a[i]);
+            }
+            a[pmax] = min;
+            a[pmin] = max;
 
+            System.out.println();
+
+            for (int j = 0; j < 9; j++) {
+                System.out.println("element [" + j + "] = " + a[j]);
+            }
+        }
+        //przyklad 6
+        System.out.println();
+        System.out.println("Przyklad 6");
+        {
+            double[] a = {23.45, -2.22, 45.90, 67.45, -56, 234.11,-34.8, 90.4, -77};
+
+            for(int i = 0; i < 9; i++ )
+            {
+                System.out.println("element [" + i + "]" + a[i] );
+            }
+
+            System.out.println();
+
+            for (int j = 0; j < 9; j++)
+            {
+                System.out.println("element [" + j + "]" + a[8 - j] );
+            }
+        }
         //Przykład 7 Losowanie liczb i porównywanie ich
-
+        System.out.println();
+        System.out.println("Przyklad 7");
         Random random = new Random();
         int wylosowanaLiczba = 0;
         for(int i =0; i < 10; i++)
@@ -61,6 +108,7 @@ public class arrays {
             System.out.println("Wylosowano[" + i + "] = " + wylosowanaLiczba);
         }
 
+        System.out.println();
         //Przykład 8 Tworzenie klasy postaci oraz wypisanie jej
         Scanner scanner = new Scanner(System.in);
         String[] imie = new String[4];
