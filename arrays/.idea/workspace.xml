@@ -72,7 +72,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application">
+    <configuration name="arrays" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="arrays" />
       <module name="arrays" />
       <RunnerSettings RunnerId="Run" />
@@ -103,5 +103,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
