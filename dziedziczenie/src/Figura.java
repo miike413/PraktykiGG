@@ -1,39 +1,23 @@
 public class Figura
 {
-    // Zdefiniujmy kilka pól
-    // Co może się znaleźć w takiej klasie Pojazd?
-    // Jakaś nazwa, można tam wpisać: Samochód, Traktor itp.
-    private String nazwa;
-    // Pojazd musi jeździć, więc musi posiadać koła, ale ile?
-    private int boka;
-    // Stwórzmy konstruktory do inicjalizacji naszych zmiennych przy tworzeniu obiektu.
-    public Figura(String nazwa, int boka)
+    private double bokA;
+
+    public Figura(double bokA)
     {
-        this.nazwa = nazwa;
-        this.boka = boka;
+        this.bokA = bokA;
     }
-    public void wlaczSilnik()
+
+    public double getBokA()
     {
-        System.out.println("Właczam silnik");
+        return bokA;
     }
-    public void wylaczSilnik()
+
+    public void setBokA(double bokA)
     {
-        System.out.println("Wyłączony");
+        this.bokA = bokA;
     }
-    public String getNazwa()
+    public double Pole()
     {
-        return nazwa;
-    }
-    public void setNazwa(String nazwa)
-    {
-        this.nazwa = nazwa;
-    }
-    public int getboka()
-    {
-        return boka;
-    }
-    public void getboka(int boka)
-    {
-        this.boka =boka;
+        return bokA * bokA;
     }
 }
