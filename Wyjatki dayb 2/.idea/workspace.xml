@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b5f8838b-24a3-463e-885c-bc09d154972b" name="Default Changelist" comment="" />
+    <list default="true" id="105c9170-3512-4f0c-b54d-5c72e37fe534" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,7 +10,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1pXIPmBhXMN0nAq1Aq3kYasggO4" />
+  <component name="ProjectId" id="1pbVrraetcOBsp6VdZX6U5UVRAm" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
@@ -74,7 +74,7 @@
   <component name="RunManager">
     <configuration name="main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="main" />
-      <module name="wyjatki" />
+      <module name="Wyjatki dayb 2" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method v="2">
@@ -90,11 +90,11 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b5f8838b-24a3-463e-885c-bc09d154972b" name="Default Changelist" comment="" />
-      <created>1615322987812</created>
+      <changelist id="105c9170-3512-4f0c-b54d-5c72e37fe534" name="Default Changelist" comment="" />
+      <created>1615451980168</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1615322987812</updated>
+      <updated>1615451980168</updated>
     </task>
     <servers />
   </component>
@@ -108,6 +108,5 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
